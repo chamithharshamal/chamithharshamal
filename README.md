@@ -20,7 +20,7 @@
 
 ---
 
-## ⚙️ Tech Stack (With Icons)
+## ⚙️ Tech Stack
 ### ☁️ Cloud & Deployment  
 ![Firebase](https://img.shields.io/badge/Firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)  ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)  ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=github&logoColor=white) ![Google Colab](https://img.shields.io/badge/Google_Colab-f9ab00?style=for-the-badge&logo=googlecolab&logoColor=white)  
  
