@@ -1,7 +1,7 @@
 <!-- Title & Typing Animation -->
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=👋+Chamith+Weerasingha;🚀+Full-Stack+Developer;🤖+AI%2FML+Enthusiast;💡+Open+Source+Contributor" alt="Typing SVG" />
-</h1>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=👋%20Chamith%20Weerasingha;🚀%20Full-Stack%20Developer;🤖%20AI%2FML%20Enthusiast;💡%20Open%20Source%20Contributor" alt="Typing SVG" />
+</p>
 
 <!-- Social Badges -->
 <p align="center">
