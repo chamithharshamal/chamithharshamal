@@ -1,6 +1,6 @@
 <!-- Title & Typing Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=👋%20Chamith%20Weerasingha;🚀%20Full-Stack%20Developer;🤖%20AI%2FML%20Enthusiast;💡%20Open%20Source%20Contributor&random=2" alt="Typing SVG" />
+  <img src="assets/typing.svg" alt="Typing Animation" />
 </p>
 
 <!-- Social Badges -->
