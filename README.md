@@ -1,6 +1,6 @@
 <!-- Title & Typing Animation -->
 <p align="center">
-  <img src="assets/typing.svg" alt="Typing Animation" />
+  <img src="/typing.svg" alt="Typing Animation" />
 </p>
 
 <!-- Social Badges -->
