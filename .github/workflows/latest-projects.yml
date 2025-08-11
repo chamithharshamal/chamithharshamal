@@ -2,7 +2,7 @@ name: Update Latest Projects
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */12 * * *" # every 12 hours
   workflow_dispatch:
 
 jobs:
@@ -10,11 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Fetch latest repos and update README
-        run: |
-          curl -s "https://api.github.com/users/chamithharshamal/repos?sort=updated&per_page=4" \
-          | jq -r '.[] | "- [" + .name + "](" + .html_url + ") — " + (.description // "No description")' > latest.md
-          sed -i '/<!--START_SECTION:activity-->/,<!--END_SECTION:activity-->/c\<!--START_SECTION:activity-->\n'$(cat latest.md)'\n<!--END_SECTION:activity-->' README.md
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - uses: jamesgeorge007/github-activity-readme@master
         with:
-          commit_message: "🔄 Updated latest projects"
+          GH_USERNAME: chamithharshamal
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COMMIT_NAME: github-actions[bot]
+          COMMIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          COMMIT_MSG: ":zap: Update README with the recent activity"
+          MAX_LINES: 5
+          TARGET_FILE: README.md
+          EMPTY_COMMIT_MSG: ":memo: empty commit to keep workflow active after 60 days of no activity"
