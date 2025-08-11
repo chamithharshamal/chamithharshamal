@@ -70,6 +70,7 @@
 <!--START_SECTION:activity-->
 1.[**AI Recipe Generator**](https://github.com/chamithharshamal/ai-recipe-gen) – Full-stack AI app using React + FastAPI + Hugging Face to generate recipes from given ingredients in real time.  
 2.[**Task Management API**](https://github.com/chamithharshamal/Task-Manager-API) – REST API with Spring Security & JWT authentication, role-based access control, and tested with JUnit & Mockito.
+
 3.[**Auction System API**](https://github.com/chamithharshamal/Auction-System-Api) – Secure REST API using Spring Boot, enabling real-time bidding with JWT authentication and role-based access control.
 <!--END_SECTION:activity-->
 
