@@ -1,8 +1,8 @@
-name: Update Latest GitHub Activity
+name: Update Latest Projects
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */12 * * *" # every 12 hours
   workflow_dispatch:
 
 jobs:
@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: readme-typing-svg/gh-activity-readme@v1
+      - uses: gautamkrishnar/blog-post-workflow@master
         with:
-          GH_USERNAME: chamithharshamal
+          comment_tag_name: activity
+          feed_list: "https://rsshub.app/github/repos/chamithharshamal"
+          max_post_count: 3
