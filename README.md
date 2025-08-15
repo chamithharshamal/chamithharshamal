@@ -65,6 +65,5 @@
 </p>
 
 ---
----
 
 💬 **Let’s Connect!** – Always excited to talk tech, brainstorm ideas, and build together.
